@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+<!-- Navigation -->
+{% block body %}
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">TrendsVoyant - Sentiment Analysis</a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="#">About</a>
+				</li>
+				<li>
+					<a href="#">Services</a>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container -->
+</nav>
+<!-- Page Content -->
+<div class="container">
+	<!-- Portfolio Section -->
+	<div class="row">
+		<div class="col-lg-12">
+			<h2 class="page-header"><img src="https://en.bitcoin.it/w/images/en/2/29/BC_Logo_.png" width="28" height="28"></img>  BTC Trade Rate</h2>
+		</div>
+		<figure>
+			{{chart|safe}}
+		</figure>
+
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<h2 class="page-header"><img src="http://www.conted.ox.ac.uk/courses/infosysfiles/O10C846H6J_1_LongDescription.png" width="28" height="28"></img>  Twitter Analysis</h2>
+		</div>
+		<figure>
+			{{chart2|safe}}
+		</figure>
+	</div>
+
+	<hr>
+
+	<!-- Call to Action Section -->
+	<div class="well">
+		<div class="row">
+			<div class="col-md-8">
+				<p>This tool is intended for analytical bitcoin trade rate predictions however, it is only a beta product and has neither been proven nor even tested :) To Learn more about TrendsVoyant, click the Project Details link</p>
+			</div>
+			<div class="col-md-4">
+				<a class="btn btn-lg btn-default btn-block" href="#">Project Details</a>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<!-- Footer -->
+	<footer>
+		<div class="row">
+			<div class="col-lg-12">
+				<p>Copyright &copy; TrendsVoyant.com 2014</p>
+			</div>
+		</div>
+	</footer>
+
+</div>
+
+<script src="js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+{% endblock %}
