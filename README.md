@@ -3,4 +3,4 @@ TrendsVoyant
 
 Bitcoin Social Media Sentiment Analysis
 
-![alt tag](https://raw.github.com/tunafish0805/TrendsVoyant/master/Work_flow.png)
+![alt tag](https://conceptzperformance.com/Cart/images/14072.jpg)
