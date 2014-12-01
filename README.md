@@ -3,4 +3,4 @@ TrendsVoyant
 
 Bitcoin Social Media Sentiment Analysis
 
-![alt tag](http://www.trendsvoyant.com/Workflow.png)
+<center>![alt tag](http://www.trendsvoyant.com/Workflow.png)</center>
